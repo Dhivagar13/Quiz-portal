@@ -99,7 +99,7 @@ const Result = () => {
                 transition={{ duration: 0.5 }}
                 className="w-full max-w-md relative z-10"
             >
-                <div className="bg-gray-900/80 backdrop-blur-xl border border-gray-800 rounded-2xl shadow-2xl p-6 sm:p-8 text-center">
+                <div className="glass-card inner-glow rounded-2xl shadow-2xl p-6 sm:p-8 text-center">
 
                     {cheatWarning ? (
                         <div className="mb-8">

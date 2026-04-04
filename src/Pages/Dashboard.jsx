@@ -63,7 +63,7 @@ const Dashboard = () => {
                         </div>
                         <button
                             onClick={handleLogout}
-                            className="flex items-center gap-2 px-3 py-2 rounded-lg bg-gray-800/80 border border-gray-700 text-gray-300 hover:text-white hover:bg-gray-700 transition-colors text-sm"
+                            className="flex items-center gap-2 px-3 py-2 rounded-lg glass text-gray-300 hover:text-white transition-colors text-sm"
                         >
                             <LogOut className="w-4 h-4" />
                             <span className="hidden sm:inline">Logout</span>
@@ -98,7 +98,7 @@ const Dashboard = () => {
                                     transition={{ delay: index * 0.1, duration: 0.3 }}
                                     className="relative group overflow-hidden rounded-xl"
                                 >
-                                    <div className="p-6 bg-gray-900/80 border border-gray-800 rounded-xl card-glow h-full flex flex-col justify-between backdrop-blur-sm">
+                                    <div className="p-6 glass-card card-glow h-full flex flex-col justify-between">
                                         <div>
                                             {/* Card top bar with icon */}
                                             <div className="flex items-center gap-3 mb-4">
@@ -124,7 +124,7 @@ const Dashboard = () => {
                             <motion.div
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1 }}
-                                className="col-span-full text-center py-16 px-4 bg-gray-900/50 rounded-xl border border-dashed border-gray-800 backdrop-blur-sm"
+                                className="col-span-full text-center py-16 px-4 glass-card rounded-xl border-dashed"
                             >
                                 <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gray-800/50 flex items-center justify-center">
                                     <BarChart3 className="w-8 h-8 text-gray-600" />

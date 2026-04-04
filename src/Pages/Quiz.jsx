@@ -132,7 +132,7 @@ const Quiz = () => {
                     {/* Question info bar */}
                     <div className="flex items-center justify-between mb-3">
                         <div className="flex items-center gap-2">
-                            <div className="flex items-center gap-1 text-xs sm:text-sm bg-gray-800/60 border border-gray-700 rounded-lg px-3 py-1.5">
+                            <div className="flex items-center gap-1 text-xs sm:text-sm glass-light rounded-lg px-3 py-1.5">
                                 <Layers className="w-3.5 h-3.5 text-blue-400" />
                                 <span className="text-gray-300">
                                     <span className="text-white font-semibold">{currentQuestionIndex + 1}</span>
@@ -165,7 +165,7 @@ const Quiz = () => {
                             animate={{ opacity: 1, x: 0 }}
                             exit={{ opacity: 0, x: -20 }}
                             transition={{ duration: 0.3 }}
-                            className="bg-gray-900/80 border border-gray-800 p-5 sm:p-8 rounded-2xl shadow-xl backdrop-blur-sm"
+                            className="glass-card p-5 sm:p-8 rounded-2xl shadow-xl"
                         >
                             <h2 className="text-lg sm:text-2xl font-semibold mb-6 sm:mb-8 leading-snug">
                                 {currentQuestion.text}

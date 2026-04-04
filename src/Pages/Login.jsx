@@ -41,7 +41,7 @@ const Login = () => {
                 transition={{ duration: 0.5 }}
                 className="w-full max-w-md p-6 sm:p-8 relative z-10"
             >
-                <div className="bg-gray-900/80 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl p-6 sm:p-8 glow-blue">
+                <div className="glass-card inner-glow shadow-2xl p-6 sm:p-8">
                     {/* Logo / Icon */}
                     <div className="flex justify-center mb-6">
                         <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center shadow-lg shadow-blue-500/30">
